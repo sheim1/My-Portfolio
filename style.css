@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #555;
+    margin: 50px;
+    line-height: 1.8;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #4b5563;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+/* Section titles */
+h2 {
+    color: #db2777;
+    font-size: 28px;
+    border-bottom: 2px solid #f9a8d4;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+/* Paragraphs and lists */
+p, li {
+    font-size: 18px;
+    color: #555;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+/* Welcome section */
+.welcome {
+    text-align: center;
+}
+
+/* Thank you section */
+.thank-you {
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+}
+.interests {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.interests div {
+    text-align: center;
+}
+
+.interests img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.interests p {
+    color: #555
+    font-size: 18px;
+}
